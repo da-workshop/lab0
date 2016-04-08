@@ -23,3 +23,12 @@ dice <- c(1,2,3,4,5,6)
 
 colors <- as.factor(c("red", "red", "blue", "gray", "yellow", "gray","blue"))
 levels(colors)
+
+# Exercise: email50
+names(email50)
+head(email50)
+tail(email50)
+str(email50)
+
+plot(county$poverty, county$fed_spend, pch=16, cex=0.7, ylim=c(0,35), xlab="Poverty Rate (Percent)", ylab="Federal Spending Per Capita")
+plot(homeownership ~ multiunit, data=county, pch=16, cex=0.7, ylim=c(0,90), xlab="Percent of Units in Multi−Unit Structures", ylab="Percent of Homeownership")
